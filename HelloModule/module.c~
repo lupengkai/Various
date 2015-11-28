@@ -16,7 +16,7 @@ unsigned long *sys_call_table = (unsigned long*)0xc0583110;
 static unsigned int ocr0;
 unsigned int clear_cr0(){    
 unsigned int cr0 = read_cr0();    
-write_cr0(cr0 & 0xfffeffff);//修改寄存器cr0的值，16位写保护位。    
+write_cr0(cr0 & 0xfffeffff);    
 return cr0;
 }
 
