@@ -1,0 +1,1 @@
+cmd_/home/tage/testDev/testDev.ko := ld -r -m elf_i386 -T /usr/src/linux-2.6.32.60/scripts/module-common.lds --build-id -o /home/tage/testDev/testDev.ko /home/tage/testDev/testDev.o /home/tage/testDev/testDev.mod.o
